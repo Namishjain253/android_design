@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/card"
+        android:orderInCategory="100"
+        android:icon="@drawable/card"
+        app:showAsAction="always"
+        android:title="@string/add_to_card" />
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:icon="@drawable/logout"
+        app:showAsAction="always"
+        android:title="@string/logout" />
+</menu>

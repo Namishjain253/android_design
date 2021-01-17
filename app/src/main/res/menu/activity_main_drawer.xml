@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_merchant_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_merchant_order"
+            android:title="@string/menu_order" />
+
+        <item
+            android:id="@+id/nav_merchant_deal"
+            android:title="@string/menu_deal" />
+
+        <item
+            android:id="@+id/nav_merchant_account"
+            android:title="@string/menu_your_profile" />
+
+        <item
+            android:id="@+id/nav_merchant_transaction"
+            android:title="@string/menu_transaction" />
+
+        <item
+            android:id="@+id/nav_merchant_about_us"
+            android:title="@string/menu_about_us" />
+
+        <item
+            android:id="@+id/nav_merchant_contact_us"
+            android:title="@string/menu_contact_us" />
+    </group>
+</menu>

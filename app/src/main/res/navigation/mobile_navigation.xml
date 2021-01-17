@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_merchant_home">
+
+    <fragment
+        android:id="@+id/nav_merchant_home"
+        android:name="com.n2n.jcshop.fragment.merchant.home.MerchantHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_merchant_home" />
+
+    <fragment
+        android:id="@+id/nav_merchant_order"
+        android:name="com.n2n.jcshop.fragment.merchant.order.MerchantOrderFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_merchant_order" />
+
+    <fragment
+        android:id="@+id/nav_merchant_deal"
+        android:name="com.n2n.jcshop.fragment.merchant.deal.MerchantDealFragment"
+        android:label="@string/menu_deal"
+        tools:layout="@layout/fragment_merchant_deal" />
+
+    <fragment
+        android:id="@+id/nav_merchant_account"
+        android:name="com.n2n.jcshop.fragment.merchant.account.MerchantAccountFragment"
+        android:label="@string/menu_your_profile"
+        tools:layout="@layout/fragment_merchant_account" />
+
+    <fragment
+        android:id="@+id/nav_merchant_transaction"
+        android:name="com.n2n.jcshop.fragment.merchant.transaction.MerchantTransactionFragment"
+        android:label="@string/menu_transaction"
+        tools:layout="@layout/fragment_merchant_transaction" />
+
+    <fragment
+        android:id="@+id/nav_merchant_about_us"
+        android:name="com.n2n.jcshop.fragment.merchant.aboutus.MerchantAboutUSFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_merchant_about_us" />
+
+    <fragment
+        android:id="@+id/nav_merchant_contact_us"
+        android:name="com.n2n.jcshop.fragment.merchant.contactus.MerchantContactUSFragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/fragment_merchant_contact_us" />
+
+</navigation>
